@@ -3,7 +3,7 @@ body{
     margin:0;
 }
 .header{
-    margin:0 5%;
+    margin:3% 5%;
   
 }
 .section-title {
@@ -38,8 +38,20 @@ font-weight: 200;
     padding: 2% 6%;
     background-image: linear-gradient(#643df4, hsl(207, 100%, 71%));
     width: 13%;
+    text-decoration: none;
+}
+.download-resume{
+    font-weight: 400;
+    color: white;
+    padding: 1% 2%;
+    width: 13%;
+    text-decoration: none;
+    border: 1px solid white;
 }
 
+.header-paragraph {
+    margin-bottom: 30px;
+}
 
 
 .about-title{
@@ -48,7 +60,7 @@ font-weight: 200;
 }
 .about-me-section {
     background-color: #643df4;
-    padding: 5% 0px;
+    padding: 5% 0 8%;
     margin: 2% 0;
 }
 .about-me-div{
@@ -62,3 +74,93 @@ font-weight: 200;
     color: #ffc51e;
     font-weight: bold;
 }
+.download-resume{
+    font-weight: 400;
+    color: white;
+    padding: 1% 2%;
+    width: 13%;
+    text-decoration: none;
+    border: 1px solid white;
+}
+.download-div{
+    text-align: center;
+}
+
+
+
+
+.experience-section{
+    margin: 8% 0;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp-1{
+    width:30%;
+    margin-top: 20px;
+
+}
+.exp-2{
+    width:40%;
+    margin: 0 20px;
+}
+.exp-3{
+    width:30%;
+    margin-top: 20px;
+}
+
+.experience-title{
+    text-align: center;
+    color:#643df4;
+}
+.experience-div{
+    margin: 0 5%;
+    display: flex;
+}
+.exp-shadow{
+    box-shadow: 5px 10px 30px#aa92ff;
+    padding: 2% 3%;
+    border-left: 7px solid;
+    border-image: linear-gradient(#643DF4, #5ad0ff);
+    border-image-slice: 1;
+}
+
+.job-status{
+    color:#643DF4;
+    
+}
+.exp-paragraph{
+    margin-top: 30px;
+}
+.Skill-title{
+    text-align: center;
+    color:#643df4;
+    font-weight: 400;
+    font-size: 50px;
+    font-family: 'Satisfy', cursive;
+}
+
+
+.skills-div{
+    display: flex;
+    margin: 0 5%;
+}
+.skill-image {
+    width: 14.5%;
+    height: 14.5%;
+    margin: 1%;
+}
+.skills-section{
+    margin-bottom: 8%;
+}
+
+
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    background-image: linear-gradient(#643DF4, #7b57ff);
+    height: 15px;
+    margin: 0;
+}
+
